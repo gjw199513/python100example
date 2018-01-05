@@ -19,5 +19,6 @@ for i in range(1, tim + 1):
     hei /= 2
     height.append(hei)
 
+
 print('总高度：tour = {0}'.format(sum(tour)))
 print('第10次反弹高度：height = {0}'.format(height[-1]))

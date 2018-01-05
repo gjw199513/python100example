@@ -19,4 +19,5 @@ print("属于"+g)
 
 # 进阶
 print('A' if score > 89 else ('B' if score > 59 else 'C'))
+
 # print('A' and score > 89 or 'B' and score > 59 or 'C')

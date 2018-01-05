@@ -16,10 +16,12 @@ for i in range(1, 22):
 print("我是递归")
 print(time.localtime())
 
+
 def r(n):
     if n == 1 or n == 2:
         return 1
     return r(n-1)+r(n-2)
+
 
 for i in range(1,36):
     print(r(i))
@@ -29,6 +31,8 @@ print(time.localtime())
 # 优化方法
 print("我是优化方法")
 print(time.localtime())
+
+
 def fib3(n):
     if n == 1:
         return [1]

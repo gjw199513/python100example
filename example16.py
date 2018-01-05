@@ -3,7 +3,6 @@ __author__ = 'gjw'
 __time__ = '2018/1/5 0005 下午 3:54'
 
 # 题目：输出指定格式的日期。
-
 # 程序分析：使用 datetime 模块。
 
 import datetime
