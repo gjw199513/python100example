@@ -9,7 +9,8 @@ __time__ = '2018/1/5 0005 上午 10:48'
 (2)如果n<>k，但n能被k整除，则应打印出k的值，并用n除以k的商,作为新的正整数你n,重复执行第一步。
 (3)如果n不能被k整除，则用k+1作为k的值,重复执行第一步。
 """
-from math import sqrt,isnan
+
+
 def reduceNum(n):
     if not isinstance(n, int) or n<=0:
         print("您输入的数字有误")
@@ -26,17 +27,16 @@ def reduceNum(n):
                     l.append(i)
                     break
             if r == n:
-                l = [1,r]
+                l = [1, r]
                 r = 1
-
 
         l = sorted(l)
 
         for i, v in enumerate(l):
             if i == 0:
-                print(str(n)+" = "+ str(v),end="")
+                print(str(n)+" = " + str(v), end="")
             else:
-                print(" * " + str(v),end="")
+                print(" * " + str(v), end="")
 
 
 reduceNum(64)
