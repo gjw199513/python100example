@@ -20,8 +20,8 @@ for j in range(2, 1001):
     if s == 0:
         print(j)
         for i in range(n):
-            stdout.write(str(k[i]))
-            stdout.write(' ')
+            print(str(k[i]),end="")
+            print(" ",end="")
         print(k[n])
 
 # 进阶版
