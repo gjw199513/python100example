@@ -12,3 +12,8 @@ for i in range(int(l/2)):
     a[i], a[l-i-1] = a[l-i-1], a[i]
 
 print("交换之后:"+str(a))
+
+# 使用reverse
+a = [9, 6, 5, 4, 1]
+a.reverse()
+print(a)
